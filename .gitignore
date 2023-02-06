@@ -3,3 +3,5 @@ project_description.txt
 README.md
 .DS_Store
 .ipynb_checkpoints
+samples
+best_model_baseline_CNN.h5
