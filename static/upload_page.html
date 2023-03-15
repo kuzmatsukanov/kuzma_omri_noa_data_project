@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Upload File</title>
+    <style>
+      /* Style the file input button */
+      input[type="file"] {
+        display: none;
+      }
+      .btn {
+        background-color: #00f50a;
+        color: black;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #edf5ee;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>OutfAIt</h1></center>
+    </br>
+    <form action="/" method="POST" enctype="multipart/form-data">
+      <label for="file" class="btn">Choose your image clothes to upload</label>
+      <input type="file" id="file" name="file">
+      <input type="submit" value="Get recommendations!" class="btn" name="submit">
+    </form>
+  </body>
+</html>
